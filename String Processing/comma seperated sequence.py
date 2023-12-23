@@ -1,0 +1,5 @@
+inp = input("enter ")
+l = inp.split(",")
+l.sort()
+st = ",".join(l)
+print(l)
